@@ -1,0 +1,154 @@
+<!DOCTYPE html5>
+<html lang="EN">
+
+<head>
+  <title>add prodect</title>
+  <link rel="stylesheet" type="text/Css" href="css/home.css">
+  <style>
+    body {
+      background: url("image/IMG-20231025-WA0017.jpg")fixed no-repeat;
+      background-size: cover;
+      margin: center;
+    }
+
+    #user {
+      border-radius: 10%;
+      align-items: center;
+      width: 70%;
+      height: 90%;
+      position: relative;
+      margin-left: 10%;
+      background: rgba(15, 12, 12, 0.9);
+      padding: 0 1px 0 10px;
+    }
+
+    label {
+      color: rgb(252, 249, 249);
+      font-size: 18px;
+      padding: 5px 50px 0px 0px;
+      margin: 20px 0px 10px 10px;
+      float: left;
+      width: 164px;
+
+
+    }
+
+    .input-field {
+      width: 60%;
+      padding: 10px 0;
+      margin: 20px 41px 0px 0px;
+      text-align: center;
+      background: transparent;
+      float: right;
+    }
+
+    .submit-btn:hover {
+      color: white;
+      background: rgb(16, 216, 106);
+
+    }
+
+
+    .button-box {
+      width: 100%;
+      margin: 20px 0 0 0;
+      position: relative;
+      box-shadow: 0 0 20px 9px #ff61241f;
+      border-radius: 30px;
+      align-items: center;
+      padding-left: 20px;
+
+    }
+
+    .button-box_p {
+      width: 70%;
+      margin: 80px 50px 0 0;
+      position: relative;
+      border-radius: 30px;
+      float: right;
+
+    }
+
+    .submit-btn {
+      color: white;
+      width: 40%;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin: 10 10;
+      background: rgba(49, 55, 61, .9);
+      border-radius: 30px;
+
+    }
+
+    .submit-btn a {
+      text-decoration: none;
+      color: #eaeaea;
+      font-size: 18px;
+    }
+
+    #register {
+      align-items: center;
+      padding-top: 85px;
+
+
+    }
+
+    #register input {
+      color: white;
+      font-size: 15;
+    }
+
+    input[type=file]:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="hader">
+
+    <h2>Kenaz</h2>
+    <h6> natural</h6>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Product.html">Product</a></li>
+    <li><a href="Menu.html">Menu With image </a></li>
+    <li><a href="About.html">About Us </a></li>
+    <li><a href="Registration.html">Registration</a></li>
+    <li><a href="Login.html">Longin</a></li>
+  </ul>
+  <div class="header" style="margin-top: 10px;">
+    <div class="overlay">
+      <div id="user" class="row">
+        <div class="col-md-12">
+          <form id='register' method="post">
+            <br>
+            <label>Name:</label>
+            <input type="text" placeholder="Name :" required class='input-field'>
+
+            <label>Number Phone:</label>
+            <input type="text" readonly class='input-field' placeholder="Number Phone:">
+
+            <label>password</label>
+            <input type="password" placeholder=" password" class='input-field'><br>
+
+
+            <label>Email:</label>
+            <input type="email" placeholder="email" class='input-field'><br>
+
+            <div class="button-box_p">
+              <button type='submit' class='submit-btn'>Add</button>
+              <button type='submit' class='submit-btn'>Cancel </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+</body>
+
+</html>

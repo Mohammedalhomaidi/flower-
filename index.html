@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Kenaz</title>
+<link rel="stylesheet" type="text/Css" href="css/home.css">
+
+<head>
+  <style>
+    body {
+      background: url("image/IMG-20231025-WA0017.jpg")fixed no-repeat;
+      background-size: cover;
+      margin: center;
+    }
+
+
+
+    footer {
+      text-align: center;
+      height: 50px;
+
+      color: aliceblue;
+      background-color: #333;
+    }
+  </style>
+
+
+<body>
+  <div id="hader">
+    <h2>Kenaz</h2>
+    <h6> natural</h6>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Product.html">Product</a></li>
+    <li><a href="Menu.html">Menu With image </a></li>
+    <li><a href="About.html">About Us </a></li>
+    <li><a href="Registration.html">Registration</a></li>
+    <li><a href="Login.html">Longin</a></li>
+  </ul>
+  <h2 style="color:black ;margin-top: 100px;">WELCOME TO Kenaz NATURAL</h2>
+  <h2 id="bu" style="color: rgb(119, 9, 9) !important; cursor: pointer;">
+    <a type="button" onclick="button( )">click here To changa
+      Button-Color
+    </a>
+  </h2>
+
+  <p class="paragraph1" id="parag">glaonema plants are among some of the most popular for growing in homes and offices
+    because they
+    are low-maintenance, tolerant of a wide range of growing conditions, and highly attractive. With countless varieties
+    that range in size and color, you can incorporate Chinese evergreens into your home or office decor to achieve a
+    variety of looks. In this guide, you’ll find 26 of our favorite types of Aglaonema plants and some helpful tips to
+    successfully grow them at home.
+
+  </p>
+  <h2 id="mar" style="color:green !important; cursor: pointer;">
+    <a type="button" onclick="paragraph( )">click here To hidden
+      paragraph
+    </a>
+  </h2>
+  <script>
+    function button() {
+      if (document.getElementById("bu").style.color == "rgb(119, 9, 9)") {
+        document.getElementById("bu").style.color = "green";
+      } else {
+        document.getElementById("bu").style.color = "rgb(119, 9, 9) ";
+      }
+    }
+
+    function paragraph() {
+      if (document.getElementById("parag").style.display == "block") {
+        document.getElementById("parag").style.display = "none";
+        document.getElementById("mar").style.margin = "140px";
+      } else {
+        document.getElementById("parag").style.display = "block";
+        document.getElementById("mar").style.margin = "0px";
+      }
+    }
+  </script>
+  <footer>
+    <b> Kenaz In Suadi Arabia </b>
+  </footer>
+
+  <body>
+    </head>

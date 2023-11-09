@@ -1,0 +1,134 @@
+#hader {
+	height: 50px;
+	width: 100%;
+	background-color: #333;
+	padding-left: 2%;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 10px;
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+li {
+	float: left;
+}
+
+li a {
+
+	color: black;
+	padding: 15px;
+	text-align: center;
+	text-decoration: initial;
+	justify-items: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+h2 {
+	text-align: center;
+	text-shadow: Orgb(8, 37, 17) 3px 2px 2px;
+	font-style: italic;
+	font-size: 30px;
+	color: white;
+
+}
+
+.paragraph1 {
+	text-align: center;
+	font-size: 17px;
+	font-style: initial;
+	color: black;
+	margin-top: 60px;
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-bottom: 70px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.login-form {
+	margin-top: 12%;
+	width: 500px;
+	height: 450px;
+	background: #f1f1f1;
+	padding: 90px 50px;
+	border-radius: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login-form h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 40px;
+	color: rgb(24, 26, 24);
+}
+
+.txtb {
+	border-bottom: 2px solid #adadad;
+	position: relative;
+	margin: 30px 0;
+}
+
+.txtb input {
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 100px;
+	height: 40px;
+	background: none;
+	outline: none;
+	padding: 0 5px;
+}
+
+
+.logbtn {
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: rgb(151, 158, 111);
+	background-size: 200%;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.logbtn:hover {
+	background-position: right;
+}
+
+button {
+
+	border-top: 1px solid #b9b8b5;
+	background: #bbb5ae;
+	padding: 4px 7px;
+	color: #2D313A;
+}
+
+body {
+	margin: 0;
+	font-size: 17px;
+}
+
+footer {
+
+	text-align: center;
+	height: 120px;
+
+	margin-top: 5%;
+}
